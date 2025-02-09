@@ -1,0 +1,32 @@
+using Microsoft.EntityFrameworkCore;
+
+namespace EnergyDataConsumption.Data.Repositories
+{
+    public class EnergyDataDBContext : DbContext
+    {
+
+        string connectionString = GlobalConfig.ConnectionString;
+
+        public EnergyDataDBContext(DbContextOptions<EnergyDataDBContext> options)
+            : base(options)
+        {
+        }
+
+         public DbSet<EnergyDataConsumption> ConsumptionRecords { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+             modelBuilder.Entity<EnergyDataConsumption>().ToTable("EnergyConsumptionRec");
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(connectionString);
+            }
+        }
+    }
+}

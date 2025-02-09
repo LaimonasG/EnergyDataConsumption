@@ -1,0 +1,14 @@
+using System;
+
+namespace Data.Entities
+{
+    public class EnergyConsumptionRec
+    {
+        public string HouseholdID { get; set; }
+        public DateTime ReadingTimestamp { get; set; }
+        public decimal EnergyUsage_kWh { get; set; }
+        public decimal CostPer_kWh { get; set; }
+        public string Device { get; set; }
+
+    }
+}

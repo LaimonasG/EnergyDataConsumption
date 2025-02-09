@@ -1,0 +1,23 @@
+using System;
+using System.IO;
+using Microsoft.Extensions.Configuration;
+
+public static class GlobalConfig
+{
+    public static string ConnectionString { get; private set; }
+
+    static GlobalConfig()
+    {
+        ConnectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
+
+        if (string.IsNullOrEmpty(ConnectionString))
+        {
+            var config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("config/secretSettings.json", optional: true, reloadOnChange: true)
+                .Build();
+
+            ConnectionString = config.GetConnectionString("DefaultConnection");
+        }
+    }
+}
