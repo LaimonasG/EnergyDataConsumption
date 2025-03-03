@@ -1,0 +1,15 @@
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/bin/Debug/net9.0/EnergyDataPipeline
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/bin/Debug/net9.0/EnergyDataPipeline.deps.json
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/bin/Debug/net9.0/EnergyDataPipeline.runtimeconfig.json
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/bin/Debug/net9.0/EnergyDataPipeline.dll
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/bin/Debug/net9.0/EnergyDataPipeline.pdb
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/obj/Debug/net9.0/EnergyDataPipeline.GeneratedMSBuildEditorConfig.editorconfig
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/obj/Debug/net9.0/EnergyDataPipeline.AssemblyInfoInputs.cache
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/obj/Debug/net9.0/EnergyDataPipeline.AssemblyInfo.cs
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/obj/Debug/net9.0/EnergyDataPipeline.csproj.CoreCompileInputs.cache
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/obj/Debug/net9.0/EnergyDataPipeline.sourcelink.json
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/obj/Debug/net9.0/EnergyDataPipeline.dll
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/obj/Debug/net9.0/refint/EnergyDataPipeline.dll
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/obj/Debug/net9.0/EnergyDataPipeline.pdb
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/obj/Debug/net9.0/EnergyDataPipeline.genruntimeconfig.cache
+/Users/laimonasgaucas/Desktop/Energy project files/energy data consumption/EnergyDataPipeline/obj/Debug/net9.0/ref/EnergyDataPipeline.dll

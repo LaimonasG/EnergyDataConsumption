@@ -4,10 +4,16 @@ namespace Data.Entities
 {
     public class EnergyConsumptionRec
     {
+        public int ID { get; set; }
+        [StringLength(50)]
         public string HouseholdID { get; set; }
+        [Column(TypeName = "datetime")]
         public DateTime ReadingTimestamp { get; set; }
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal EnergyUsage_kWh { get; set; }
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal CostPer_kWh { get; set; }
+        [StringLength(50)]
         public string Device { get; set; }
 
     }
